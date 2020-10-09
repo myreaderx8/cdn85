@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>403 禁止存取</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        body {
+        	font-family: Verdana, Arial, Helvetica, sans-serif;
+        	font-size: 18px;
+        	background-color:#367E8E;
+        	scrollbar-base-color: #005B70;
+        	scrollbar-arrow-color: #F3960B;
+        	scrollbar-DarkShadow-Color: #000000;
+        	color: #FFFFFF;
+			margin:0;
+        }
+        a { color:#021f25; text-decoration:none}
+        h1 {
+        	font-size: 24px;
+        	color: #FB9802;
+        	padding-bottom: 10px;
+        	background-image: url(sys_cpanel/images/bottombody.jpg);
+        	background-repeat: repeat-x;
+        	padding:5px 0 10px 15px;
+			margin:0;
+        }
+        #body-content p {
+        	padding-left: 25px;
+        	padding-right: 25px;
+        	line-height: 18px;
+        	padding-top: 5px;
+        	padding-bottom: 5px;
+        }
+        h2 {
+        	font-size: 20px;
+        	font-weight: bold;
+        	color: #FF9900;
+        	padding-left: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="body-content">  
+<!-- start content-->
+
+<!-- 
+ instead of REQUEST_URI, we could show absolute URL via:
+ http://HTTP_HOST/REQUEST_URI
+    but what if its https:// or other protocol?
+    
+    SERVER_PORT_SECURE doesn't seem to be used
+    SERVER_PORT logic would break if they use alternate ports
+-->
+
+<h1>403 禁止存取</h1>
+<p>您所請求的頁面禁止存取:</p>
+  <blockquote>
+    gordon168.tw/403.shtml (443 埠)
+  </blockquote> 
+<p>
+    請將此錯誤訊息轉寄給 gordon168.tw 的 
+    <a href="mailto:webmaster@gordon168.tw?subject=Error message [(none)] 403 禁止存取 for gordon168.tw/403.shtml port 443 on Saturday, 10-Oct-2020 05:08:01 CST">
+    網站管理員</a>.
+</p>
+<hr />
+
+
+<!-- end content -->
+    </div>
+  </body>
+</html>
